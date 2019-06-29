@@ -4,12 +4,15 @@
   "description": "Charity web application written in React-Frontend and Node/Express.js in the backend. Uses mongoDb",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "dev": "webpack-dev-server --open --mode development --hot --https",
     "start": "webpack-dev-server --open --mode development --hot --https",
     "build": "webpack --mode production --open --hot",
     "format": "prettier --write \"src/**/*.js\"",
-    "eslint-fix": "eslint --fix \"src/**/*.js\""
+    "eslint-fix": "eslint --fix \"src/**/*.js\"",
+    "test:coverage": "jest --collectCoverage",
+    "coverage": "jest --collectCoverage"
   },
   "repository": {
     "type": "git",
@@ -21,9 +24,26 @@
     "url": "https://github.com/missvicki/Project-Love-Never-Fails/issues"
   },
   "homepage": "https://github.com/missvicki/Project-Love-Never-Fails#readme",
+  "jest": {
+    "setupFiles": [
+      "./client/setupTests.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  },
   "dependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "enzyme-to-json": "^3.3.5",
     "express": "^4.17.1",
     "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-test-renderer": "^16.8.6",
+    "redux-mock-store": "^1.5.3",
     "semantic-ui-react": "^0.87.2"
   },
   "devDependencies": {
@@ -45,8 +65,6 @@
     "eslint-plugin-react": "^7.14.2",
     "file-loader": "^4.0.0",
     "prettier": "^1.18.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
     "react-hot-loader": "^4.11.1",
     "resolve-url-loader": "^3.1.0",
     "sass-loader": "^7.1.0",
