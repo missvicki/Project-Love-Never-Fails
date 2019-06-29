@@ -1,0 +1,34 @@
+# Dependency structure
+node_modules
+
+#build
+build
+dist-server
+dist-client
+.cache
+
+# Logs
+logs
+*.log
+.DS_Store
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+yarn-debug.log*
+yarn-error.log*
+
+# private files
+.env
+.env*
+dist/
+.nyc_output/
+yarn-error.log
+
+# Vscode
+.vscode
+
+.editorConfig
