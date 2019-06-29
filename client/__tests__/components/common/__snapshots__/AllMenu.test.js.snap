@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AllMenu /> should render AllMenu component without crashing 1`] = `
+<MenuMenu
+  position="right"
+>
+  <MenuItem
+    className="item"
+    name="menu"
+  >
+    <NavLink
+      className="item"
+      to="/"
+    >
+      OUR STORY
+    </NavLink>
+  </MenuItem>
+  <MenuItem
+    className="item"
+    name="mission"
+  >
+    <NavLink
+      className="item"
+      to="/"
+    >
+      MISSION
+    </NavLink>
+  </MenuItem>
+  <MenuItem
+    className="item"
+    name="children"
+  >
+    <NavLink
+      className="item"
+      to="/"
+    >
+      OUR CHILDREN
+    </NavLink>
+  </MenuItem>
+  <MenuItem
+    className="item"
+    name="donate"
+  >
+    <NavLink
+      className="item"
+      to="/"
+    >
+      DONATE
+    </NavLink>
+  </MenuItem>
+</MenuMenu>
+`;
