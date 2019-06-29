@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Homepage /> should render Homepage without crashing 1`] = `
+<div>
+  <Header />
+  <Footer />
+</div>
+`;

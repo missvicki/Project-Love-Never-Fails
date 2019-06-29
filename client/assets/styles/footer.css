@@ -1,0 +1,32 @@
+.footer {
+  background: lightgrey !important;
+}
+.listItem {
+  color: #01233f !important;
+  margin-left: 43px !important;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.footerItems :hover {
+  color: white !important;
+  background: #01233f !important;
+  padding: 10px;
+}
+.footerItems {
+  color: teal !important;
+}
+.footerItem {
+  margin-right: 30px !important;
+}
+/* media queries */
+@media (max-width: 767px) {
+  .listItem {
+    margin-left: 10px !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .listItem {
+    margin-left: 10px !important;
+  }
+}

@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> should render Footer component without crashing 1`] = `
+<div
+  className="footer"
+>
+  <Menu
+    borderless={true}
+    className="footer"
+    fixed="bottom"
+    stackable={true}
+  >
+    <MenuMenu
+      position="left"
+    >
+      <List
+        className="listItem"
+      >
+        <ListItem
+          className="listItem"
+        >
+          P.O BOX 0000, MBARARA-UGANDA
+        </ListItem>
+        <ListItem
+          className="listItem"
+        >
+          ADDRESS: PROJECT LOVE NEVER FAILS, MBARARA - UGANDA
+        </ListItem>
+        <ListItem
+          className="listItem"
+        >
+          EMAIL: plnf@projectloveneverfails.com
+        </ListItem>
+      </List>
+    </MenuMenu>
+    <MenuMenu
+      className="footerItem"
+      position="right"
+    >
+      <MenuItem
+        className="footerItems"
+        name="menu"
+      >
+        <NavLink
+          className="footerItems"
+          to="/"
+        >
+          OUR STORY
+        </NavLink>
+      </MenuItem>
+      <MenuItem
+        className="footerItems"
+        name="mission"
+      >
+        <NavLink
+          className="footerItems"
+          to="/"
+        >
+          MISSION
+        </NavLink>
+      </MenuItem>
+      <MenuItem
+        className="footerItems"
+        name="children"
+      >
+        <NavLink
+          className="footerItems"
+          to="/"
+        >
+          OUR CHILDREN
+        </NavLink>
+      </MenuItem>
+      <MenuItem
+        className="footerItems"
+        name="donate"
+      >
+        <NavLink
+          className="footerItems"
+          to="/"
+        >
+          DONATE
+        </NavLink>
+      </MenuItem>
+    </MenuMenu>
+  </Menu>
+</div>
+`;
