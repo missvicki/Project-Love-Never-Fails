@@ -1,0 +1,36 @@
+.header {
+  background: teal !important;
+}
+.mainMenu {
+  margin: 0 10vh !important;
+  margin-right: 30px;
+}
+.logo {
+  height: 50% !important;
+  width: 60% !important;
+}
+.navItems :hover {
+  color: white !important;
+  background: #01233f !important;
+  padding: 10px;
+}
+.navItems {
+  color: white !important;
+}
+
+/* media queries */
+@media (max-width: 767px) {
+  .mainMenu {
+    margin: 0 0.2vh !important;
+  }
+}
+
+@media (max-width: 414px) {
+  /* .navItems {
+    display: none !important ;
+  } */
+
+  .mainMenu {
+    margin: 0 0.2vh !important;
+  }
+}

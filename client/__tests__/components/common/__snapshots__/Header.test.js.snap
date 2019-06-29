@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render Header component without crashing 1`] = `
+<div
+  className="header"
+>
+  <Menu
+    className="mainMenu"
+    secondary={true}
+    stackable={true}
+  >
+    <MenuItem
+      header={true}
+    >
+      <NavLink
+        to="/"
+      >
+        <Image
+          as="img"
+          className="logo"
+          src="test-file-stub"
+          ui={true}
+        />
+      </NavLink>
+    </MenuItem>
+    <MenuMenu
+      position="right"
+    >
+      <MenuItem
+        className="navItems"
+        name="menu"
+      >
+        <NavLink
+          className="navItems"
+          to="/"
+        >
+          OUR STORY
+        </NavLink>
+      </MenuItem>
+      <MenuItem
+        className="navItems"
+        name="mission"
+      >
+        <NavLink
+          className="navItems"
+          to="/"
+        >
+          MISSION
+        </NavLink>
+      </MenuItem>
+      <MenuItem
+        className="navItems"
+        name="children"
+      >
+        <NavLink
+          className="navItems"
+          to="/"
+        >
+          OUR CHILDREN
+        </NavLink>
+      </MenuItem>
+      <MenuItem
+        className="navItems"
+        name="donate"
+      >
+        <NavLink
+          className="navItems"
+          to="/"
+        >
+          DONATE
+        </NavLink>
+      </MenuItem>
+    </MenuMenu>
+  </Menu>
+</div>
+`;
